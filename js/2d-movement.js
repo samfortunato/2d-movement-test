@@ -12,15 +12,9 @@ canvas.height = height;
 
 
 
-// Variables
-
-const body = document.querySelector('body');
-
-
-
 // Objects
 
-let box = {
+const box = {
 	x: 275,
 	y: 275,
 	width: 50,
@@ -53,7 +47,7 @@ const clearCanvas = () => {
 
 // Event listeners
 
-body.addEventListener('submit', (event) => {
+document.body.addEventListener('submit', (event) => {
 
 	event.preventDefault();
 
