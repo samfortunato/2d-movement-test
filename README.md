@@ -4,9 +4,15 @@
 
 A little test of 2D movement in JavaScript canvas.
 
+## How to Use
+
+Just pop in X and Y coordinate values for the square, along with X and Y velocity values (how fast you want the box to move along the X and/or Y axes.)
+
+Takes positive and negative numbers (integers or floats).
+
 ## Live Preview
 
-[]()
+[samfortunato.com/misc/javascript/2d-movement-test](http://samfortunato.com/misc/javascript/2d-movement-test/)
 
 ## Info
 
