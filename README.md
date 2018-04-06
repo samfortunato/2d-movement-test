@@ -4,7 +4,7 @@
 
 A little test of 2D movement in JavaScript canvas.
 
-## How to Use
+## Instructions
 
 Just pop in X and Y coordinate values for the square, along with X and Y velocity values (how fast you want the box to move along the X and/or Y axes.)
 
