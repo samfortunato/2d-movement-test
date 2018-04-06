@@ -12,6 +12,21 @@ canvas.height = height;
 
 
 
+// Variables
+
+const body = document.querySelector('body');
+
+
+
+// Vector
+
+const boxVector = {
+	x: 0,
+	y: 0
+}
+
+
+
 // // Functions
 
 // Makes a box
@@ -23,6 +38,16 @@ const drawBox = (x, y, width, height) => {
 	ctx.fill();
 	ctx.closePath();
 }
+
+
+
+// Event listeners
+
+body.addEventListener('submit', (event) => {
+
+	event.preventDefault();
+
+});
 
 
 
